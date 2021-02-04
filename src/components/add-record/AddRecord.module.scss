@@ -1,0 +1,31 @@
+.addRecord_wrapper {
+    width: 40%;
+
+    .title {
+        margin-bottom: .5rem;
+    }
+    .formControl {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .label {
+        margin-bottom: 10px;
+    }
+    .input {
+        padding: 0.5rem 1rem;
+        border: 1px solid #ccc9c9;
+        border-radius: 5px;
+        margin-right: 1rem;
+        outline: none;
+    }
+
+    .button {
+        color: white;
+        background-color: #0c76f2;
+        padding: 7px;
+        border-radius: 5px;
+        border: 1px solid #0c76f2;
+    }
+}
